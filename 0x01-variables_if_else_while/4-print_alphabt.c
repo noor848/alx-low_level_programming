@@ -1,16 +1,9 @@
 #include <stdio.h>
 /**
- *main :entry point
- * 
- * print charcte except q and e 
- *
- *
- *return 0
- *
- *
- */
-
-
+ * main - Entry point
+ * Description: Print Alphabet 2
+ * Return: Code 0 is translated as Success!
+*/
 int main(void)
 {
 	char c = 'a';

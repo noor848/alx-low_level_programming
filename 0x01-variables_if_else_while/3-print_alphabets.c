@@ -1,26 +1,31 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
- * Description: Print Alphabet
+ * Description: Print Alphabet 2
  * Return: Code 0 is translated as Success!
 */
 
+
 int main(void)
 {
+	char ch = 'a';
+	char CH = 'A';
 
-	char s = 'a', k = 'A';
-	while (s <= 'z')
+	/*prints a - z*/
+	while (ch <= 'z')
 	{
-		putchar(s);
-		s++;
+		putchar(ch);
+		++ch;
 	}
 
-	while (k <= 'Z')
-	{	
-		putchar(k);
-		k++;
+	/*print A - Z*/
+	while (CH <= 'Z')
+	{
+		putchar(CH);
+		++CH;
 	}
 	putchar('\n');
-	
+
 	return (0);
 }

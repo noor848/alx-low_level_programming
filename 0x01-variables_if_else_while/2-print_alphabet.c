@@ -1,15 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/*
+* input first character
+* print the whole characterfrom a..z
+*
+*/
 int main(void)
 {
 	char n = 'a';
 
 	/* your code goes there */
-	while (n < 'z')
+	while (n <= 'z')
 	{
 		putchar(n);
 		n++;

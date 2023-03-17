@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-* input first character
-* print the whole characterfrom a..z
-*
+
+/**
+ * main - Entry point
+ * Description: Print Alphabet
+ * Return: Code 0 is translated as Success!
 */
+
 int main(void)
 {
 	char n = 'a';

@@ -1,10 +1,11 @@
-#include <stio.h>
+#include <stdio.h>
 /**
+ *main :entry point
+ * 
+ * print charcte except q and e 
  *
  *
- *
- *
- *
+ *return 0
  *
  *
  */

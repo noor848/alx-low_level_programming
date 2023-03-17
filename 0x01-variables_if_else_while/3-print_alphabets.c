@@ -5,21 +5,21 @@
  * Return: Code 0 is translated as Success!
 */
 
-int main() {
-	
+int main(void)
+{	
 	char s = 'a', k = 'A';
-    	while (s <= 'z')
+    	
+	while (s <= 'z')
+	{
+		putchar(s);
+		s++;
+    	}
+	while (k <= 'Z')
     	{	
-        	putchar(s);
-        	s++;
+		putchar(k);
+		k++;
     	}
-     	while (k <= 'Z')
-    	{
-        	putchar(k);
-        	k++;
-    	}
-    
 	putchar('\n');
-    
-    	return 0;
+	
+	return 0;
 }

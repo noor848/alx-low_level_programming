@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
- * main :entry point
- * description: print digint 0-9
- * Return :ending te code success
- */
+ * main - Entry point
+ * Description: Print Alphabet 2
+ * Return: Code 0 is translated as Success!
+*/
 
 
 int main(void)

@@ -1,31 +1,28 @@
-#include <stdio.h>
+#include<stdio.h>
 
 /**
  * main - Entry point
- * Description: Print d in asc order
+ * Description: Print digits using putchar 4 times
  * Return: Code 0 is translated as Success!
 */
 
-
 int main(void)
 {
-	int i = 0;
+	int digit = 0;
 
-	while (i <= 9)
+	while (digit <= 9)
 	{
-		putchar(i + 48);
+		putchar(digit + 48);
 
-		if(i != 9)
+		if (digit != 9)
 		{
 			putchar(',');
 			putchar(' ');
-	
 		}
 
-		i++;
+		++digit;
 	}
-	
 	putchar('\n');
 
 	return (0);
-}
+}	

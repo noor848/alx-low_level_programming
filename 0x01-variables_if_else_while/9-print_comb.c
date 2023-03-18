@@ -11,14 +11,21 @@ int main(void)
 {
 	int i = 0;
 
-	while (i < 9)
+	while (i <= 9)
 	{
 		putchar(i + 48);
-		putchar(',');
-		i++;
+
+		if(i != 9)
+		{
+			putchar(',');
+			putchar(' ');
+	
+		}
+
+		i++
 	}
-	putchar(i + 48);
-	putchar('$');
+	
+	putchar('\n');
 
 	return (0);
 }

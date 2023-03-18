@@ -9,7 +9,6 @@
 int main(void)
 {
 	int num = 0, k = 0;
-	
 	while (num <= 9)
 	{
 		putchar(num + 48);

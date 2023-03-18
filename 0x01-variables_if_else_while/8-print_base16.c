@@ -9,6 +9,7 @@
 int main(void)
 {
 	int num = 0, k = 0;
+	
 	while (num <= 9)
 	{
 		putchar(num + 48);
@@ -22,6 +23,7 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+
 
 
 

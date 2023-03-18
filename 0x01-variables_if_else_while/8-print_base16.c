@@ -16,9 +16,9 @@ int main(void)
 		num++;
 	}
 	
-	while(k <= 6)
+	while (k <= 6)
 	{
-		putchar(num-1+48+40+k);
+		putchar(num - 1 + 48 + 40 + k);
 	
 		k++;
 	}

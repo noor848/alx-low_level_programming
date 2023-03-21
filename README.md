@@ -1,1 +1,1 @@
-C language tasks 
+C function 

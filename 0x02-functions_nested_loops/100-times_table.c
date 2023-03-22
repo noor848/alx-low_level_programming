@@ -9,13 +9,13 @@
  
 void print_times_table(int n)
 {
-    int mult = 0;
+    int mult = 0, i, j;
 	
     if(n > 0 && n <= 15)
     {
-        for (int i = 0;i <= n;i++)
+        for (i = 0;i <= n;i++)
 		{
-            for (int j = 0;j <= n;j++)
+            for (j = 0;j <= n;j++)
 			{
 				mult = i * j;
 				_putchar(mult + '0');

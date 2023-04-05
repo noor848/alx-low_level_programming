@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_recursion - a function that prints count of string
+ * _strlen_recursion - a function that prints count of string
  *
  * @s: the string
  *
@@ -14,7 +14,6 @@ int _strlen_recursion(char *s)
 	{
 		return (0);
 	}
-	
+
 	return (_strlen_recursion(s + 1) + 1);
-	
 }
